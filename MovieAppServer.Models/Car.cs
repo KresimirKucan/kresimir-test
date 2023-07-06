@@ -11,6 +11,7 @@ namespace MovieAppServer.Models
         public string? Brand { get; set; }
         public int HorsePower { get; set; }
         public int Year { get; set; }
-        public int Kilometer { get; set; }
+        public int Kilometers { get; set; }
+        public string? Transmission { get; set; }
     }
 }
